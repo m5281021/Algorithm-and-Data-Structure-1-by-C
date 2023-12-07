@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void insertionSort(int *list, int n) {
-    for(int i = 1; i < n; i++) {
+    for(int i = 0; i < n; i++) {
         int v = list[i];
         int j = i - 1;
         while(j >= 0 && list[j] > v) {
@@ -26,4 +26,5 @@ int main() {
         scanf("%d", &list[i]);
     }
     insertionSort(list, n);
+    return 0;
 }
