@@ -173,6 +173,7 @@ void solve(int n) {
             else printf("no\n");
         }
     }
+    delete_hash_table(ht);
 }
 
 int main() {
